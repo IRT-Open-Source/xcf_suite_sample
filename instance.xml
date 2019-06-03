@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<passenger>
+    <name>Jane Grant</name>
+    <cabin-bag>
+        <weight>10</weight>
+        <height>55</height>
+        <width>40</width>
+        <depth>25</depth>
+    </cabin-bag>
+</passenger>

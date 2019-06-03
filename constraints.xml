@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpecificationConstraints>
+    <Specifications>
+        <Specification ID="ID-Aeto-Conditions">
+            <Name>Conditons Aeto</Name>
+            <Acronym>C-Aeto</Acronym>
+            <Version>1.0</Version>
+        </Specification>
+        <Specification ID="ID-Oern-Conditions">
+            <Name>Conditions Örn</Name>
+            <Acronym>C-Örn</Acronym>
+            <Version>1.0</Version>
+        </Specification>
+    </Specifications>
+    <Tags>
+       <Tag ID="weight" type="Error type">
+            <DisplaynameLong>Weight related</DisplaynameLong>
+            <DisplaynameShort>Weight</DisplaynameShort>
+            <Description>Everything related to luggage weight.</Description>
+        </Tag>
+        <Tag ID="dimensions" type="Error type">
+            <DisplaynameLong>Dimension related</DisplaynameLong>
+            <DisplaynameShort>Dimension</DisplaynameShort>
+            <Description>Everything related to the luggage dimensions.</Description>
+        </Tag>
+    </Tags>
+    <Constraints>
+        <Constraint ID="c1">
+            <ShortName>Cabin Bag Max. Weight 8kg</ShortName>
+            <SpecifiedBy ID="ID-cabinbag-8kg">
+                <SpecificationReference>ID-Aeto-Conditions</SpecificationReference>
+                <Error_Level>ERROR</Error_Level>
+            </SpecifiedBy>
+            <ShortDescription>Value should be equal or less than 8.</ShortDescription>            
+            <ShortDescriptionUser>Cabin bag should not have more than 8kg weight.</ShortDescriptionUser>
+            <Tagref IDREF="weight"/>
+        </Constraint>
+        <Constraint ID="c2">
+            <ShortName>Cabin Bag Max. Weight 10kg</ShortName>
+            <SpecifiedBy ID="ID-cabinbag-10kg">
+                <SpecificationReference>ID-Oern-Conditions</SpecificationReference>
+                <Error_Level>ERROR</Error_Level>
+            </SpecifiedBy>
+            <ShortDescription>Value should be equal or less than 10.</ShortDescription>            
+            <ShortDescriptionUser>Cabin bag should not have more than 10kg weight.</ShortDescriptionUser>
+            <Tagref IDREF="weight"/>
+        </Constraint>
+        <Constraint ID="c3">
+            <ShortName>Cabin Bag Max. Height 55cm</ShortName>
+            <SpecifiedBy ID="ID-cabinbag-55-height-aeto">
+                <SpecificationReference>ID-Aeto-Conditions</SpecificationReference>
+                <Error_Level>ERROR</Error_Level>
+            </SpecifiedBy>
+            <SpecifiedBy ID="ID-cabinbag-55-height-oern">
+                <SpecificationReference>ID-Oern-Conditions</SpecificationReference>
+                <Error_Level>ERROR</Error_Level>
+            </SpecifiedBy>
+            <ShortDescription>Value should be equal or less than 55.</ShortDescription>            
+            <ShortDescriptionUser>Height of cabin bag should not exceed 55cm.</ShortDescriptionUser>
+            <Tagref IDREF="dimensions"/>
+        </Constraint>
+        <Constraint ID="c4">
+            <ShortName>Cabin Bag Max. Width 40cm</ShortName>
+            <SpecifiedBy ID="ID-cabinbag-40-width-aeto">
+                <SpecificationReference>ID-Aeto-Conditions</SpecificationReference>
+                <Error_Level>ERROR</Error_Level>
+            </SpecifiedBy>
+            <SpecifiedBy ID="ID-cabinbag-40-width-oern">
+                <SpecificationReference>ID-Oern-Conditions</SpecificationReference>
+                <Error_Level>ERROR</Error_Level>
+            </SpecifiedBy>
+            <ShortDescription>Value should be equal or less than 40.</ShortDescription>            
+            <ShortDescriptionUser>Width of cabin bag should not exceed 44cm.</ShortDescriptionUser>
+            <Tagref IDREF="dimensions"/>
+        </Constraint> 
+        <Constraint ID="c5">
+            <ShortName>Cabin Bag Max. Depth 25cm</ShortName>
+            <SpecifiedBy ID="ID-cabinbag-25-depth-aeto">
+                <SpecificationReference>ID-Aeto-Conditions</SpecificationReference>
+                <Error_Level>ERROR</Error_Level>
+            </SpecifiedBy>
+            <ShortDescription>Value should be equal or less than 25.</ShortDescription>            
+            <ShortDescriptionUser>Depth of cabin bag should not exceed 25cm.</ShortDescriptionUser>
+            <Tagref IDREF="dimensions"/>
+        </Constraint> 
+        <Constraint ID="c6">
+            <ShortName>Cabin Bag Max. Depth 24cm</ShortName>
+            <SpecifiedBy ID="ID-cabinbag-24-depth-oern">
+                <SpecificationReference>ID-Oern-Conditions</SpecificationReference>
+                <Error_Level>ERROR</Error_Level>
+            </SpecifiedBy>
+            <ShortDescription>Value should be equal or less than 24.</ShortDescription>            
+            <ShortDescriptionUser>Depth of cabin bag should not exceed 24cm.</ShortDescriptionUser>
+            <Tagref IDREF="dimensions"/>
+        </Constraint> 
+    </Constraints>
+</SpecificationConstraints>
