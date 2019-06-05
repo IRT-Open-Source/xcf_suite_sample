@@ -33,7 +33,7 @@ A respective XSD exists in the [`xcf` repository](https://github.com/IRT-Open-So
 
 This Schematron file contains the implementation for constraint checks.
 For more convenient use it should be converted to an XSLT file using the
-[Schematron XSLT contained in the `xcf` repository](https://github.com/IRT-Open-Source/xcf/xslt/schematron).
+[Schematron XSLT contained in the `xcf` repository](https://github.com/IRT-Open-Source/xcf/tree/master/xslt/schematron).
 
 ### /rules_config.xml
 
