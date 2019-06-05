@@ -5,7 +5,7 @@
 
 This repository contains a suite of files designated for use with the
 XML Checker Framework (XCF), in order to check sample XML files (here:
-luggage).
+checks against baggage allowance of different airlines).
 
 The following files are contained here:
 - constraints
@@ -47,3 +47,8 @@ applications that make use of this set of constraints/rules.
 ### /instance.xml
 This XML file contains an actual instance of the type of files that are
 intended to be checked against the present constraints/rules.
+
+
+## License
+The XCF sample suite offered by Institut für Rundfunktechnik GmbH is
+subject to the [MIT license](LICENSE).
