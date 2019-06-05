@@ -33,7 +33,7 @@
             <sch:assert test="$bag-depth le 25" see="http://www.cabin-bag.info/c5"
                 diagnostics="diag-depth-25" id="assert-c5-1">The depth of cabin luggage is 25cm or
                 less.</sch:assert>
-            <sch:assert test="$bag-depth le 24" see="http://www.cabin-bag.info/c1"
+            <sch:assert test="$bag-depth le 24" see="http://www.cabin-bag.info/c6"
                 diagnostics="diag-depth-24" id="assert-c6-1">The depth of cabin luggage is 24cm or
                 less.</sch:assert>            
         </sch:rule>
