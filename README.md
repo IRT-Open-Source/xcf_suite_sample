@@ -52,3 +52,8 @@ intended to be checked against the present constraints/rules.
 ## License
 The XCF sample suite offered by Institut für Rundfunktechnik GmbH is
 subject to the [MIT license](LICENSE).
+
+In case the source code is modified and re-distributed we would welcome
+a short note (please email to open DOT source AT irt.de). This way we
+can keep track of opportunities to collaborate and to improve the
+project.
